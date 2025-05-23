@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('Hellow, world!')
+    return render(request, 'home/welcome.html', {})
