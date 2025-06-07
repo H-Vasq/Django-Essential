@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     #apps
     'home',
-    'notes',
+    'notes.apps.NotesConfig',
 ]
 
 MIDDLEWARE = [
